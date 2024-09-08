@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:53:51 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Sun Sep  8 00:03:44 2024
+# Process ID: 9232
+# Current directory: C:/Xilinx/Projects/lab2/lab2.runs/synth_1
+# Command line: vivado.exe -log FourBitRCA.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FourBitRCA.tcl
+# Log file: C:/Xilinx/Projects/lab2/lab2.runs/synth_1/FourBitRCA.vds
+# Journal file: C:/Xilinx/Projects/lab2/lab2.runs/synth_1\vivado.jou
+# Running On: grindpad, OS: Windows, CPU Frequency: 2096 MHz, CPU Physical cores: 12, Host memory: 15915 MB
+#-----------------------------------------------------------
+source FourBitRCA.tcl -notrace
