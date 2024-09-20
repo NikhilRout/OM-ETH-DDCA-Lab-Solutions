@@ -6,4 +6,5 @@ Lab Materials Page: https://safari.ethz.ch/digitaltechnik/spring2020/doku.php?id
 ## Labs
 LAB 1 – Drawing Basic Circuits - Comparator/XOR-NAND Implementation\
 LAB 2 – Mapping Your Circuit to an FPGA - Four Bit RCA\
-LAB 3 - Verilog for Combinational Circuits - RCA to 7 Seg Display
+LAB 3 - Verilog for Combinational Circuits - RCA to 7 Seg Display\
+LAB 4 - Finite-State Machines - Controlling tail lights of a 1965 Ford Thunderbird
