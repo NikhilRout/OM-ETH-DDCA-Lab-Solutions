@@ -31,5 +31,6 @@ module clk_div(
         else
             clk_count <= clk_count + 1;
     end
-    assign clk_en = &clk_count;
+    assign clk_en = &clk_count; //AND reduction operator
+                                //(clk_en = 1 only when all bits of clk_count = 1)
 endmodule
