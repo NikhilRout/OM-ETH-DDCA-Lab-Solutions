@@ -32,14 +32,14 @@ module MIPS_ALU(
     Multiplexer2_1 MUX0(.D1(notB), .D0(B), .sel(AluOp[1]), .Y(inpB));
     Adder32 RCA0(.A(A), .B(inpB), .Cin(AluOp[1]), .Sum(AddOut), .Cout(C));
     Extend E0(.thebit(AddOut[31]), .extended(SLText));
-    Multiplexer2_1 MUX1(.D1(SLText), .D0(Addout), .sel(AluOp[3]), .Y(ArithOut));
+    Multiplexer2_1 MUX1(.D1(SLText), .D0(AddOut), .sel(AluOp[3]), .Y(ArithOut));
     
     //Logic Block
     wire [31:0] bwAND, bwOR, bwXOR, bwNOR, LogicOut;
-    BitwiseAND(.A(A), .B(B), .Y(bwAND));
-    BitwiseOR(.A(A), .B(B), .Y(bwOR));
-    BitwiseXOR(.A(A), .B(B), .Y(bwXOR));
-    BitwiseNOR(.A(A), .B(B), .Y(bwNOR));
+    BitwiseAND Band(.A(A), .B(B), .Y(bwAND));
+    BitwiseOR Bor(.A(A), .B(B), .Y(bwOR));
+    BitwiseXOR Bxor(.A(A), .B(B), .Y(bwXOR));
+    BitwiseNOR Bnor(.A(A), .B(B), .Y(bwNOR));
     Multiplexer4_1 MUX2(.D0(bwAND), .D1(bwOR), .D2(bwXOR), .D3(bwNOR), .sel(AluOp[1:0]), .Y(LogicOut));
     
     //top
