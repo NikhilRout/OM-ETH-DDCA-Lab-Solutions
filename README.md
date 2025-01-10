@@ -10,4 +10,5 @@ LAB 3 - **Verilog for Combinational Circuits** - RCA to 7 Seg Display\
 LAB 4 - **Finite-State Machines** - Controlling tail lights of a 1965 Ford Thunderbird\
 LAB 5 - **Implementing an ALU** - Partial MIPS ALU Design and Timing/Ultilization/Routing Reports\
 LAB 6 - **Testing the ALU** - Test Vector File Creation and Vivado behavioral testbench simulation\
-LAB 7 - **Writing Assembly Code** - Programs for Sum of Consecutive Numbers and Sum of Absolute Differences
+LAB 7 - **Writing Assembly Code** - Programs for Sum of Consecutive Numbers and Sum of Absolute Differences\
+LAB 8 - **Full System Integration** - Top-Level Architecture Design and Module Instantiation 
